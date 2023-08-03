@@ -1,0 +1,50 @@
+.App {
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 24px;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.heading:hover {
+    color: coral;
+    transition: .5s;
+}
+
+.navbar_nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar_nav ul li {
+    list-style: none;
+    padding: 0 20px;
+    transition: .5s all;
+}
+
+.navbar_nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.navbar_nav ul li:hover {
+    transform: scale(1.5);
+}
